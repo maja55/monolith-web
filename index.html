@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.min.css" />
     <link rel="stylesheet" type="text/css" href="src/assets/fonts/fonts.css" />
     <link rel="stylesheet" type="text/css" href="src/css/charts.min.css" />
-    <link rel="stylesheet" type="text/css" href="src/css/index.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/index.css" />
     <link rel="stylesheet" type="text/css" href="src/css/mobile.min.css" />
 
 
@@ -285,8 +285,8 @@
                             <a class="link text_white text_s" href="https://app.monolith.co/login">Log in.</a> -->
                         </div>
                         <div class="signupBar__right col-xs-12 col-md-6">
-                            <form class="signupForm" method="post" name"emailform" action="email-request.php">
-                                <input class="input__email text_s" type="text" name="email" placeholder="Email address." autocomplete="on">
+                            <form class="signupForm" method="post" name"emailform" id="email-request">
+                                <input id="email" class="input__email text_s" type="text" name="email" placeholder="Email address." autocomplete="on">
                                 <input class="button__submit text_xs text_bold" type="submit" value="GET FREE DEMO">
                             </form>
                         </div>
@@ -305,6 +305,32 @@
     </div>
 
 </div>
+
+<script type='text/javascript'>
+    $("#email-request").submit(function(e) {
+        e.preventDefault();
+
+        var dataObj = {
+            email: $("#email").val(),
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "email-request.php",
+            data: dataObj,
+            success: function(res) {alert(res);
+                //// later shud customize pop up by removing alert(res) and adding
+                // if (res == 'successful') {
+                //     do fancy happy stuff;
+                // }
+                // else {
+                //     do bummer stuff;
+                //// }
+            },
+        });
+
+    });
+</script>
 
 </body>
 </html>
