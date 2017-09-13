@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Monolith International</title>
+    <meta name="description" content="retail analitics solution" />
+    <meta name="keywords"  content="monolith, retail, analitics, shopability, profitability, metrics" />
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/assets/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/charts.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/index.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/mobile.min.css" />
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                verticalCentered: true,
+                sectionsColor: ['transparent', '#6DC1B8', '#fff', 'white', '#6DC1B8',  'transparent'],
+                anchors: ['home','shopability', 'actionBoard', 'shoppingJourney', 'AIM', 'company'],
+                menu: '#menu',
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<ul id="menu">
+    <img class="logo_big" src="src/assets/monolith-logo.svg" alt="monolith" href="#firstPage" />
+    <ul class="navigationBar">
+        <li data-menuanchor="home" class="first active hidden"></a></li>
+        <li data-menuanchor="shopability"><a href="#shopability">Shopability</a></li>
+        <li data-menuanchor="actionBoard"><a href="#actionBoard">ActionBoard</a></li>
+        <li data-menuanchor="shoppingPath" class="hidden"></a></li>
+        <li data-menuanchor="AIM"><a href="#AIM">AIM</a></li>
+        <li data-menuanchor="company"><a href="#company">Company</a></li>
+        <li><a href="https://app.monolith.co/login">Log in</a></li>
+    </ul>
+</ul>
+
+<div id="fullpage">
+
+
+<!-- Introduction -->
+    <div class="section fp-auto-height" id="section0">
+        <div class="myContent myContent__section0">
+                <h1 class="text text_white text_left">
+                    Teams at Audi use ActionBoard to increase <span class="text_bold">shopper satisfaction</span>.
+                </h1>
+                <h2 class="text text_white text_right">Shopability for Profitability.</h2>
+        </div>
+    </div>
+
+<!-- Shopability -->
+    <div class="section fp-auto-height" id="section1">
+        <div class="myContent myContent__section1">
+            <div class="arrow_wrapper">
+                <div class="arrow"></div>
+            </div>
+            <h2 class="text text_black text_left">
+                <span class="text_bold">Shopability</span> is a retail strategy with the <span class="text_bold">AIM®</span> of increasing shopper spending and traffic through relevant shopping experiences.
+            </h2>
+
+            <div class="section1_chart chart_wrapper">
+                <div class="chart_axis chart_axis__y">
+                    <div class="chart_label chart_label__y">SPEND PER SHOPPER</div>
+                    <svg class="chart_arrow chart_arrow__up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40">
+                        <defs>
+                            <marker id="arrowhead1" markerWidth="6" markerHeight="6"
+                            refX="0" refY="3" orient="auto" fill="#fff">
+                                <polygon points="0 0, 6 3, 0 6" />
+                            </marker>
+                        </defs>
+                        <line x1="20" y1="20" x2="270" y2="20" vector-effect="non-scaling-stroke" stroke="#fff" stroke-width="4" marker-end="url(#arrowhead1)" />
+                    </svg>
+                </div>
+
+                <div class="matrix">
+                    <div class="matrix_box matrix_box__first col-xs-6">
+                        <h3 class="matrix_box__text">UPHILL POTENTIALS</h3>
+                    </div>
+                    <div class="matrix_box matrix_box__second col-xs-6">
+                        <h3 class="matrix_box__text">PROFIT DRIVERS</h3>
+                    </div>
+                    <div class="matrix_box matrix_box__third col-xs-6">
+                        <h3 class="matrix_box__text">CHALENGERS</h3>
+                    </div>
+                    <div class="matrix_box matrix_box__fourth col-xs-6">
+                        <h3 class="matrix_box__text">HIGH POTENTIALS</h3>
+                    </div>
+                </div>
+
+                <div class="chart_axis chart_axis__x">
+                    <div class="chart_label chart_label__x">TRAFFIC PER SQM</div>
+                    <svg class="chart_arrow chart_arrow__right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 40">
+                        <line x1="20" y1="20" x2="570" y2="20" vector-effect="non-scaling-stroke" stroke="#fff" stroke-width="4" marker-end="url(#arrowhead1)" />
+                    </svg>
+                </div>
+            </div>
+
+            <img class="section1_image image__skewed" src="src/assets/knowledgecentar.png"></img>
+        </div>
+    </div>
+
+
+<!-- ActionBoard -->
+    <div class="section fp-auto-height" id="section2">
+        <div class="myContent myContent__section2">
+            <img class="section2_image image__skewed" src="src/assets/actionboard.png"/>
+            <div class="text section2_text section2_text__top text_black text_right">
+                <h3>
+                    <span class="text_bold">ActionBoard</span> is a tool which instills the confidence needed for retailers to take action.
+                </h3>
+                <p>Find out how you can optimize shopping experiences and drive more traffic and spend by using ActionBoard in your retail environment.</p>
+            </div>
+            <div class="text section2_text section2_text__bottom text_white text_right">
+                <p>Go beyond traditional traffic and conversion tracking and find out how you can increase major KPIs on every step of the purchase path.</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ShoppingJourney -->
+    <div class="section fp-auto-height active" id="section3">
+        <div class="slide fp-auto-height active" id="slide1">
+            <div class="intro">
+                <div class="section3_textwrapper">
+                    <div class="section3_arrow">
+                        <div class="arrow section3_top__arrow"></div>
+                    </div>
+                    <h1 class="text_black section3_text"></h1>
+                    <div class="section_footer section3_footer">
+                        <img class="section_footer_image" src="src/assets/purchasepath.gif" />
+                    </div>
+                </div>
+            </div>
+            <div class="videoWrapper">
+                <video id="video1" loop muted controls="false" data-autoplay>
+                    <source src="src/assets/entrances.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <h1>Slide 2</h1>
+        </div>
+        <div class="slide" id="slide3">
+            <h1>Slide 3</h1>
+        </div>
+    </div>
+
+
+<!-- AIM -->
+    <div class="section fp-auto-height" id="section4">
+        <div class="myContent myContent__section4">
+
+            <div class="section4_part1">
+                <img class="section4_image image__skewed" src="src/assets/aim.png"/>
+                <div class="text section4_text text_black text_right">
+                    <h3><span class="text_bold">Introducing AIMs</span><br>(Actionable Insight Maps)</h3>
+                    <p>AIMs are the most powerful way to optimize shopper spend and traffic across the fleet.</p>
+                </div>
+            </div>
+
+            <div class="section4_part2">
+                <div class="section4_arrow">
+                    <div class="arrow section4_top__arrow"></div>
+                </div>
+                <div class="section4_tablewrapper">
+                    <img class="section4_table" src="src/assets/aims_table.png">
+                    <h2 class="section4_table_title"><span class="text_bold">A</span>CTIONABLE <span class="text_bold">I</span>NSIGHT <span class="text_bold">M</span>AP SYSTEM</h2>
+                </div>
+                <!-- AIMS table - not working yet->
+                <!-- <div class="aims_wrapper container">
+                    <div class="aims_section aims_section__first col-xs-1" id="aims-column1"></div>
+                    <div class="aims_section aims_section__second col-xs-9">
+                        <div class="subsection subsection__top col-xs-12">
+                            <div class="aims-row subsection__top_row1">
+                                <h2 class="text_bold">USE LAB STORES TO UNDERSTAND KEY SPEND DRIVERS</h2>
+                                <h3>Identify improvements and a-b test different levers to increase traffic and spend.</h3>
+                            </div>
+                            <div class="aims-row subsection__top_row2"></div>
+                        </div>
+                        <div class="subsection subsection__bottom aims-columns2-10">render rows 2-10</div>
+                    </div>
+                    <div class="aims_section aims_section__third col-xs-1 aims-column11">render column 11</div>
+                </div> -->
+            </div>
+
+            <div class="section4_part3">
+                <div class="section4_part3__box section4_part3__box_left  col-sm-6 col-xs-12">
+                    <div class="text section4_text section4_part3__text text_black text_left">
+                        <h3><span class="text_bold">How do AIMs work?</span></h3>
+                        <p>By combining behavioral drivers (touch) and economical results (sales) we map the actions which yield maximized performance.</p>
+                    </div>
+                    <img class="section4_part3_image" src="src/assets/heatmap.png">
+                </div>
+                <div class="section4_part3__box section4_part3__box_right  col-sm-6 col-xs-10">
+                    <div class="chart_wrapper">
+
+                        <div class="matrix">
+                            <div class="matrix_box matrix_box__first col-xs-6">
+                                <div class="matrix_box__text_wrapper"></div>
+                                <h3 class="matrix_box__text">REPOSITION<br><span class="text_light">TO SELL MORE</span></h3>
+                            </div>
+                            <div class="matrix_box matrix_box__second col-xs-6">
+                                <div class="matrix_box__text_wrapper"></div>
+                                <h3 class="matrix_box__text">LEAVE<br><span class="text_light">AS IT IS</span></h3>
+                            </div>
+                            <div class="matrix_box matrix_box__third col-xs-6">
+                                <div class="matrix_box__text_wrapper"></div>
+                                <h3 class="matrix_box__text">REMOVE<br><span class="text_light">FROM THE WALL</span></h3>
+                            </div>
+                            <div class="matrix_box matrix_box__fourth col-xs-6">
+                                <div class="matrix_box__text_wrapper"></div>
+                                <h3 class="matrix_box__text">CONSIDER<br><span class="text_light">MARKDOWN</span></h3>
+                            </div>
+                        </div>
+                        <div class="chart_axis chart_axis__x">
+                            <div class="chart_label chart_label__x"># TOUCHES PER SKU</div>
+                            <svg class="chart_arrow chart_arrow__right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 20">
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="6" markerHeight="6"
+                                    refX="0" refY="3" orient="auto" fill="#CBCBCB" markerUnits="strokeWidth">
+                                        <polygon points="0 0, 6 3, 0 6" />
+                                    </marker>
+                                </defs>
+                                <line x1="20" y1="10" x2="480" y2="10" vector-effect="non-scaling-stroke" stroke="#CBCBCB" stroke-width="2" marker-end="url(#arrowhead)" />
+                            </svg>
+                        </div>
+                        <div class="chart_axis chart_axis__y">
+                            <div class="chart_label chart_label__y">SALES PER SKU</div>
+                            <svg class="chart_arrow chart_arrow__up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 20">
+                                <line x1="20" y1="10" x2="480" y2="10" vector-effect="non-scaling-stroke" stroke="#CBCBCB" stroke-width="2" marker-end="url(#arrowhead)" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="section4_part4">
+                <div class="text section4_part4_text text_black text_left">
+                    <h3>Use <span class="text_bold">LAB</span> stores to create experiments and measure the impact on both shopability and profitability.</h3>
+                    <p>ActionBoard LAB tool enables automatic tracking of changes on both behavioral and economical drivers.</p>
+                </div>
+                <img class="section4_part4_image image__skewed" src="src/assets/lab_stores.png"/>
+            </div>
+
+            <div class="section4_part5">
+                <img class="section4_part5_image" src="src/assets/shopping_time.png"/>
+                <div class="text section4_part5_text text_black text_left">
+                    <p><span class="text_bold">[Shopping] Time is on our side. Yes it is.</span><br>
+                        Measure the impact on both shopability and profitability.<br>
+                    <p>If you would ask 100 retailers what is the most important metric they track on daily level, 99 of them would shoot: Conversion. ...</p>
+                    <p><a class="link link_brand" href=#>Read further.</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section fp-auto-height" id="section5">
+        <div class="myContent myContent_section5">
+            <div class="content_wrapper__section5">
+                <div>
+                    <div class="signupBar">
+                        <div class="signupBar__left col-xs-12 col-md-6">
+                            <p class="text_bold text_white text_s">The bottom line is:
+                            <p class="text_white">you have to increase your bottom line.</p>
+                            <!-- <span class="text_s text_white">Already a user? </span>
+                            <a class="link text_white text_s" href="https://app.monolith.co/login">Log in.</a> -->
+                        </div>
+                        <div class="signupBar__right col-xs-12 col-md-6">
+                            <form class="signupForm" method="post" name"emailform" action="email-request.php">
+                                <input class="input__email text_s" type="text" name="email" placeholder="Email address." autocomplete="on">
+                                <input class="button__submit text_xs text_bold" type="submit" value="GET FREE DEMO">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="logo_wrapper">
+                        <a href="#home">
+                            <img class="section5_logo logo" height="60px" src="src/assets/logo.svg" alt="monolith"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="page_footer">
+                    <p class="text_xs text_white text_right">Monolith, ActionBoard and Shopability are registered trademarks of Monolith International B.V.<br>Shopability. Profitability.. 2017. Amsterdam. London. Zurich.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

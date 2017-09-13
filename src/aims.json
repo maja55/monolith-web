@@ -1,0 +1,127 @@
+{
+    "aims": [
+        {
+            "row": "1",
+            "title": "product and presentation aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Aw", "name":"Assortment Width"},
+                {"id": "Ad", "name":"Assortment Depth"},
+                {"id": "Ap", "name":"Assortment Product Attractiveness"},
+                {"id": "Sa", "name":"Space Allocation"},
+                {"id": "Pb", "name":"Product Benefit Communication"},
+                {"id": "Ab", "name":"Assortment Block Positioning"},
+                {"id": "Sb", "name":"Shelf Block Positioning"}
+            ]
+        },
+        {
+            "row": "2",
+            "title": "store and product service aim",
+            "color":"#D5EDEC",
+            "items": [
+                {"id": "Ps", "name":"Product Service Impact"},
+                {"id": "Fc", "name":"Fitting Room Convenience Placement"},
+                {"id": "Fe", "name":"Fitting Room Efficiency Time"},
+                {"id": "Cp", "name":"Check Out Placement"},
+                {"id": "Ce", "name":"Check Out Efficiency Time"}
+            ]
+        },
+        {
+            "row": "3",
+            "title": "pricing aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Pt", "name":"Pricing Tier Shelf Distribution"},
+                {"id": "Ps", "name":"Pricing Tag Standards"},
+                {"id": "Ac", "name":"Assortment Pricing Level Composition"},
+                {"id": "Pc", "name":"Pricing Relative To Competition"}
+            ]
+        },
+        {
+            "row": "4",
+            "title": "staff and service aim",
+            "color":"#D5EDEC",
+            "items": [
+                {"id": "St", "name":"Staff  Time Per Shopper"},
+                {"id": "Sp", "name":"Shoppers per Staff Sales Person"},
+                {"id": "Ss", "name":"Staff Selling Skills"}
+            ]
+        },
+        {
+            "row": "5",
+            "title": "environment journey aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Li", "name":"Logic & Length of Journey"},
+                {"id": "Cf", "name":"Category Flow in Journey"}
+            ]
+        },
+        {
+            "row": "6",
+            "title": "environment journey aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Fd", "name":"Fixture Density & Placement"},
+                {"id": "Mq", "name":"Mirror Quantity and Placement"}
+            ]
+        },
+        {
+            "row": "7",
+            "title": "environment journey aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Sla", "name":"Store Look and Feel Attraction"},
+                {"id": "Bcv", "name":"Brand Communications and Visuals"}
+            ]
+        },
+        {
+            "row": "8",
+            "title": "environment journey aim",
+            "color":"#01FFFC",
+            "items": [
+                {"id": "Cs", "name":"Category Size"},
+                {"id": "Sn", "name":"Store Navigation"},
+                {"id": "", "name":""},
+                {"id": "", "name":""},
+                {"id": "", "name":""},
+                {"id": "", "name":""},
+                {"id": "", "name":""}
+            ]
+        },
+        {
+            "row": "9",
+            "title": "communication aim",
+            "color":"#03B8FF",
+            "items": [
+                {"id": "Ce", "name":"Events"},
+                {"id": "Pp", "name":"Product Promos"},
+                {"id": "Al", "name":"ATL Marketing"}
+            ]
+        },
+        {
+            "row": "10",
+            "title": "location traffic aim",
+            "color":"#03B8FF",
+            "items": [
+                {"id": "Sl", "name":"Store Location"},
+                {"id": "Stl", "name":"Store Traffic Lead"},
+                {"id": "Wa", "name":"Window Appeal"},
+                {"id": "Ea", "name":"Entrance Attraction Accessibility"}
+            ]
+        },
+        {
+            "row": "11",
+            "title": "omnichannel aim",
+            "color":"#97BBCD",
+            "items": [
+                {"id": "Cc", "name":"Click and Collect"},
+                {"id": "St", "name":"Ship From Store"},
+                {"id": "Or", "name":"OmniChannel Returns"},
+                {"id": "Ir", "name":"Inventory Visibility"},
+                {"id": "Id", "name":"In Store Digital Tools"},
+                {"id": "Sd", "name":"Same Day Delivery"},
+                {"id": "Mm", "name":"Memberships"}
+            ]
+        }
+    ]
+}
